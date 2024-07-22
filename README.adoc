@@ -1,10 +1,8 @@
-= RISC-V Specification Template
+= RISC-V Blanced Ternary ISA Extension Specification
 
-This repository serves as a template for creating GitHub repositories within the RISC-V organization for the purpose of developing specifications. It aims to facilitate and standardize the process of specification development.
+Balanced ternary (base 3) instructions set for next generation CNTFET computers.
 
-NOTE: If you are viewing this in a specification repository, kindly update the title for this section and provide an introduction relevant to your repository.
-
-== License
+= License
 
 This work is licensed under a Creative Commons Attribution 4.0 International License (CC-BY-4.0). For details, see the link:LICENSE[LICENSE] file.
 
