@@ -12,8 +12,6 @@ BUILD_DIR := build
 DOCS_PDF := $(DOCS:%.adoc=%.pdf)
 DOCS_HTML := $(DOCS:%.adoc=%.html)
 
-ASCIIDOCTOR_PDF := asciidoctor-pdf
-ASCIIDOCTOR_HTML := asciidoctor
 OPT := --trace \
            -a compress \
            -a webfonts! \
@@ -35,10 +33,10 @@ build-docs: $(DOCS_PDF) $(DOCS_HTML)
 vpath %.adoc $(SRC_DIR)
 
 %.pdf: %.adoc
-	$(ASCIIDOCTOR_PDF) $(OPT)  $< 
+	asciidoctor-pdf $(OPT)  $< 
 
 %.html: %.adoc
-	$(ASCIIDOCTOR_HTML) $(OPT)  $< 
+	asciidoctor $(OPT)  $< 
 
 clean:
 	rm -rf $(BUILD_DIR)
