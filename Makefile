@@ -16,6 +16,7 @@ ASCIIDOCTOR_PDF := asciidoctor-pdf
 ASCIIDOCTOR_HTML := asciidoctor
 OPT := --trace \
            -a compress \
+           -a webfonts! \
            -a mathematical-format=svg \
            -a revnumber=${VERSION} \
            -a revremark=${REVMARK} \

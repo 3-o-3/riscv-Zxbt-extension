@@ -19,7 +19,7 @@ draft
 
 ====
 
-Ternary (base 3) indexterm:[base] basic, yo cite:[Patterson2017],
+Ternary cite:[Jones_2012] (base 3) indexterm:[base] basic, yo cite:[Patterson2017],
 this is ok!
 
 === Sub Section of Introduction

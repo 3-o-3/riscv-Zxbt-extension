@@ -30,6 +30,7 @@ include::../docs-resources/global-config.adoc[]
 :toclevels: 4
 :source-highlighter: pygments
 ifdef::backend-pdf[]
+:pdf-page-size: [8.27in, 11in]
 :source-highlighter: coderay
 endif::[]
 :data-uri:
