@@ -1,0 +1,3 @@
+:company: cod5.com 
+:url-cod5: https://cod5.com
+:doctype: book
