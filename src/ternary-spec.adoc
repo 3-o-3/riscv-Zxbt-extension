@@ -1,25 +1,25 @@
-= RISC-V Example Specification Document (Zexmpl)
-Authors: Author 1, Author 2
+= RISC-V Ternary ISA Specification Document (Zxbt)
+Authors: Jean-Marc Lienher
 include::../docs-resources/global-config.adoc[]
-:docgroup: RISC-V Task Group
-:description: RISC-V Example Specification Document (Zexmpl)
-:revdate: 1/2023
+:docgroup: Citizen Task Group 
+:description: RISC-V Ternary ISA extension Specification Document (Zxbt)
+:revdate: 7/2024
 :revnumber: 1.0
-:revremark: This document is under development. Expect potential changes. Visit http://riscv.org/spec-state for further details.
+:revremark: This document is under development. 
 :revinfo:
 :preface-title: Preamble
 :colophon:
 :appendix-caption: Appendix
 // https://docs.asciidoctor.org/asciidoc/latest/macros/images-directory/
 :imagesdir: ../docs-resources/images
-:title-logo-image: image:risc-v_logo.png["RISC-V International Logo",pdfwidth=3.25in,align=center]
+:title-logo-image: image:public.png["Public Domain LOGO",pdfwidth=3.25in,align=center]
 // Settings:
 :experimental:
 :reproducible:
 //:WaveDromEditorApp: app/wavedrom-editor.app
 :imagesoutdir: images
 //:srcdir: src
-:bibtex-file: src/example.bib
+:bibtex-file: src/bibtex.bib
 :bibtex-order: alphabetical
 :bibtex-style: apa
 :icons: font
@@ -51,21 +51,14 @@ list-of::table[hide_empty_section=true, enhanced_rendering=true]
 list-of::listing[hide_empty_section=true, enhanced_rendering=true]
 
 [WARNING]
-.This document is in the link:http://riscv.org/spec-state[Development state]
+.This document is in the Development state
 ====
-Expect potential changes. This draft specification is likely to evolve before
-it is accepted as a standard. Implementations based on this draft
-may not conform to the future standard.
+Expect potential changes. 
 ====
 
 [preface]
 == Copyright and license information
-This specification is licensed under the Creative Commons
-Attribution 4.0 International License (CC-BY 4.0). The full
-license text is available at
-https://creativecommons.org/licenses/by/4.0/.
-
-Copyright 2024 by RISC-V International.
+This specification is public domain.
 
 [preface]
 include::contributors.adoc[]
