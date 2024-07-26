@@ -39,4 +39,4 @@ vpath %.adoc $(SRC_DIR)
 	asciidoctor $(OPT)  $< 
 
 clean:
-	rm -rf $(BUILD_DIR)
+	rm -rf $(BUILD_DIR)/* $(BUILD_DIR)/.asciidoctor

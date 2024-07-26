@@ -12,7 +12,7 @@ include::../docs-resources/global-config.adoc[]
 :appendix-caption: Appendix
 // https://docs.asciidoctor.org/asciidoc/latest/macros/images-directory/
 :imagesdir: ../docs-resources/images
-:title-logo-image: image:public.png["Public Domain LOGO",pdfwidth=3.25in,align=center]
+:title-logo-image: image:public.svg["Public Domain LOGO",pdfwidth=3.25in,align=center]
 // Settings:
 :experimental:
 :reproducible:
