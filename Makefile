@@ -19,7 +19,7 @@ OPT := --trace \
            -a revnumber=${VERSION} \
            -a revremark=${REVMARK} \
            -a revdate=${DATE} \
-	   -a pdf-fontsdir=docs-resources/fonts \
+	   -a pdf-fontsdir="docs-resources/fonts;GEM_FONTS_DIR" \
 	   -a pdf-theme=docs-resources/themes/cod5.yml \
 		   -D build \
            --failure-level=ERROR \

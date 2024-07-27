@@ -10,7 +10,7 @@ font:
       bold_italic: Tuffy_Bold_Italic.ttf
 heading:
     font-family: Tuffy
-Body:
+base:
     font-family: Tuffy
 page:
   background_color: ffffff
@@ -18,6 +18,21 @@ page:
   margin: [0.5in, 0.67in, 0.67in, 0.67in]
   margin_inner: 0.75in
   margin_outer: 0.59in
+header:
+header:
+  font_size: $base_font_size_small
+  border_color: dddddd
+  border_width: 0.35
+  height: $base_line_height_length * 2.6
+  line_height: 1
+  padding: [$base_line_height_length / 1, 1, .5, 1]
+  vertical_align: margin_inside
+  recto:
+    right:
+      content: '{section-or-chapter-title} | Page {page-number}'
+  verso:
+    left:
+      content: 'Page {page-number} | {section-or-chapter-title}'
 footer:
   font_size: $base_font_size_small
   border_color: dddddd
@@ -28,7 +43,7 @@ footer:
   vertical_align: top
   recto:
     right:
-      content: '{document-title} | (&#8836;) public domain'
+      content: '{document-title} | (&#8836;) public domain | Page {page-number}'
   verso:
     left:
-      content: $footer_recto_right_content
+      content: 'Page {page-number} | {document-title} | (&#8836;) public domain'
