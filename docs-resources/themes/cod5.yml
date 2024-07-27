@@ -1,0 +1,34 @@
+---
+extends: default-with-font-fallbacks
+font:
+  catalog:
+    merge: true
+    Tuffy:
+      normal: Tuffy.ttf
+      italic: Tuffy_Italic.ttf
+      bold: Tuffy_Bold.ttf
+      bold_italic: Tuffy_Bold_Italic.ttf
+heading:
+    font-family: Tuffy
+Body:
+    font-family: Tuffy
+page:
+  background_color: ffffff
+  layout: portrait
+  margin: [0.5in, 0.67in, 0.67in, 0.67in]
+  margin_inner: 0.75in
+  margin_outer: 0.59in
+footer:
+  font_size: $base_font_size_small
+  border_color: dddddd
+  border_width: 0.35
+  height: $base_line_height_length * 2.6
+  line_height: 1
+  padding: [$base_line_height_length / 1, 1, .5, 1]
+  vertical_align: top
+  recto:
+    right:
+      content: '{document-title} | (&#8836;) public domain'
+  verso:
+    left:
+      content: $footer_recto_right_content
