@@ -19,7 +19,6 @@ page:
   margin_inner: 0.75in
   margin_outer: 0.59in
 header:
-header:
   font_size: $base_font_size_small
   border_color: dddddd
   border_width: 0.35
